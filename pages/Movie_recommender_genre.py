@@ -31,7 +31,7 @@ def get_poster(movie_id):
 
     headers = {
         "accept": "application/json",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0Y2FiY2JmMGZlZTdhMjM5N2QxOTk2YzI4NjAwNTQ3MyIsIm5iZiI6MTcxOTY2NzUxOS42Mjk2OTQsInN1YiI6IjY2ODAwNTE3ZGQ2MzhhZjY5NzY3ZGM5NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.WzfH6LYzSqAGO980ayLCBBcfm4XQZa1YVDoU3O5xXdY"
+        "Authorization": "Your_API_KEY_Here"
     }
     response = requests.get(url, headers=headers)
     result = response.json().get("poster_path")
