@@ -16,7 +16,7 @@ https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ### TMDB API Link
 - **Note: I've removed my API key in the above files. However I've added images of the project hosted locally inlcuding the API responses.**
-https://developer.themoviedb.org/reference/intro/getting-started
+- https://developer.themoviedb.org/reference/intro/getting-started
 
 ### Data Preprocessing
 - All the data cleaning, preprocessing, model building, deploying etc. has been explained in the Jupyter Notebook uploaded above.
